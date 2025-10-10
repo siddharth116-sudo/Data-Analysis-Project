@@ -7,8 +7,8 @@
 ## 👥 Team Members
 
 * **Siddharth Magdum** 
-* **[Your Team Member 2]** 
-* **[Your Team Member 3]** 
+* **Tushar Satpute** 
+* **Rahul Nawale** 
 
 ---
 
