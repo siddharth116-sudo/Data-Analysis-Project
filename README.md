@@ -1,16 +1,82 @@
-# Data-Analysis-Project
-Problem Statement
+# 📊 Graduate Employability Analysis & Placement Prediction
 
-Despite the increasing number of graduates entering the job market, a significant proportion struggle to secure suitable employment. Employers often cite a mismatch between academic performance, technical skills, and employability attributes as key barriers to recruitment. Understanding the relationship between student academic performance, skill sets, and placement outcomes is therefore critical for universities, policymakers, and recruiters.
+> A data-driven exploration of student performance and placement outcomes — identifying key academic and non-academic factors affecting employability, predicting placement success, and providing actionable insights for institutions and students.
 
-This project aims to analyze the Graduate Employability Dataset (Student Performance vs Placement Dataset) to identify the key factors that influence whether a student gets placed or not. By leveraging statistical methods and predictive modeling, we will explore:
+---
 
-Which academic and non-academic factors contribute most to employability?
+## 👥 Team Members
 
-Can placement outcomes be predicted based on student performance indicators?
+* **Siddharth Magdum** 
+* **[Your Team Member 2]** 
+* **[Your Team Member 3]** 
 
-What correlations exist between categorical factors (e.g., gender, stream, internship experience) and placement success?
+---
 
-How can insights from this dataset help institutions improve curriculum design and career readiness programs?
+## 🎯 Problem Statement
 
-The ultimate goal is to build a data-driven framework that provides actionable insights for improving graduate employability, enhancing placement strategies, and supporting students in aligning their academic journey with labor market expectations.
+Despite the increasing number of graduates entering the job market, many struggle to secure suitable employment. Employers often cite mismatches between academic performance, technical skills, and employability attributes as barriers to recruitment. 
+
+This project aims to:
+
+* Identify **academic and non-academic factors** that most influence employability
+* Predict **placement outcomes** using student performance indicators
+* Explore correlations between categorical factors (e.g., gender, stream, internship experience) and placement success
+* Provide **actionable insights** for universities and policymakers to improve curriculum design and career readiness programs
+* Build a **data-driven framework** to enhance graduate employability and placement strategies
+
+---
+
+## 🗂️ Data Sources
+
+We analyzed the **Graduate Employability Dataset (Student Performance vs Placement Dataset)**, which includes:
+
+* **Academic Performance:** Previous semester grades, CGPA, subject scores
+* **Employability Indicators:** Internships, projects completed, communication skills, extra-curricular scores
+* **Placement Outcome:** Placed or not placed (target variable)
+* **Demographics & Streams:** Gender, degree, specialization, location
+
+> The dataset was cleaned, preprocessed, and prepared for modeling.
+
+---
+
+## ⚙️ Methodology Overview
+
+### **Phase 1 – Data Cleaning & Pre-processing (Completed)**
+
+* Handled missing values, duplicates, and outliers
+* Standardized categorical columns (stream, degree, gender)
+* Normalized numeric features (CGPA, skill scores)
+* Exported processed dataset for modeling (`processed_data.csv`)
+
+### **Phase 2 – Exploratory Data Analysis (Completed)**
+
+* Univariate, bivariate, and multivariate analysis
+* Identified key trends and correlations between features and placement outcomes
+* Visualized distributions, skill gaps, and placement patterns
+* Derived insights such as:
+
+  * Higher CGPA and strong communication skills increase placement probability
+  * Internship experience strongly correlates with employability
+  * Certain streams and degrees show better placement rates
+
+### **Phase 3 – Modeling & Evaluation (Completed)**
+
+* **Predictive Modeling:** Logistic Regression, Random Forest, XGBoost
+* **Feature Importance Analysis:** Identify top predictors of placement success
+* **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC
+* **Outputs:**
+
+  * `models/placement_predictor.pkl`
+  * `outputs/model_metrics.csv`, `outputs/feature_importance.png`
+
+### **Phase 4 – Reporting & Visualization (Completed)**
+
+* Created an interactive dashboard summarizing insights
+* Generated plots for key findings, correlations, and placement trends
+* Delivered final report (`final_report.pdf`) and presentation (`presentation.pptx`)
+* Insights enable actionable strategies for students and institutions
+
+---
+
+## 📁 Repository Structure
+
