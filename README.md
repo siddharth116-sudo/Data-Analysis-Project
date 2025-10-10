@@ -103,7 +103,6 @@ Data-Analysis-Project/
 │
 ├── README.md
 └── requirement.txt
-
 ---
 
 ## 🧹 Key Deliverables (Final)
