@@ -80,9 +80,29 @@ We analyzed the **Graduate Employability Dataset (Student Performance vs Placeme
 
 ## 📁 Repository Structure
 
-
-
-
+Data-Analysis-Project/
+├── Data/
+│   ├── Processed Data/
+│   └── Raw Data/
+│
+├── Notebook/
+│   ├── EDA.ipynb
+│   ├── dataloading_inspection.ipynb
+│   ├── featureanalysis.ipynb
+│   ├── hyperparametertuning.ipynb
+│   ├── installation.ipynb
+│   ├── model_evaluation.ipynb
+│   └── preprocessing_splitting.ipynb
+│
+├── Outputs/
+│   ├── Confusion Matrix.png
+│   ├── Histogram.png
+│   ├── Numeric feature corelation.png
+│   ├── ROC Curve.png
+│   └── Random Forest Features.png
+│
+├── README.md
+└── requirement.txt
 
 ---
 
